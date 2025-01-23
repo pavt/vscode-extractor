@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "vscode-extractor",
+    "section": "",
+    "text": "vscode-extractor es una herramienta poderosa diseñada para interactuar con el Visual Studio Code Marketplace, permitiendo la extracción de metadatos, análisis de extensiones, y procesamiento de estadísticas relacionadas con repositorios de GitHub. Ideal para desarrolladores e investigadores que buscan analizar extensiones populares o personalizadas.",
+    "crumbs": [
+      "vscode-extractor"
+    ]
+  },
+  {
+    "objectID": "index.html#introducción",
+    "href": "index.html#introducción",
+    "title": "vscode-extractor",
+    "section": "",
+    "text": "vscode-extractor es una herramienta poderosa diseñada para interactuar con el Visual Studio Code Marketplace, permitiendo la extracción de metadatos, análisis de extensiones, y procesamiento de estadísticas relacionadas con repositorios de GitHub. Ideal para desarrolladores e investigadores que buscan analizar extensiones populares o personalizadas.",
+    "crumbs": [
+      "vscode-extractor"
+    ]
+  },
+  {
+    "objectID": "index.html#instalación",
+    "href": "index.html#instalación",
+    "title": "vscode-extractor",
+    "section": "Instalación",
+    "text": "Instalación\nPuedes instalar la biblioteca de las siguientes maneras:\n\nDesde GitHub\n\npip install git+https://github.com/benjaminserrano23/vscode-extractor.git\n\n\n\nDesde PyPI\n\npip install vscode-extractor\n\n\n\nDesde Conda\n\nconda install -c benjaminserrano23 vscode-extractor",
+    "crumbs": [
+      "vscode-extractor"
+    ]
+  },
+  {
+    "objectID": "index.html#características",
+    "href": "index.html#características",
+    "title": "vscode-extractor",
+    "section": "Características",
+    "text": "Características\n\nExtracción de Metadatos: Recopila información detallada de extensiones del Marketplace de Visual Studio Code.\nAnálisis de GitHub: Integra datos de los repositorios de GitHub asociados, como métricas de código, commits recientes y mucho más.\nExportación de Datos: Convierte resultados en formatos JSON y CSV para facilitar el análisis.\nProcesamiento Escalable: Soporta la extracción de datos para un número configurable de extensiones.",
+    "crumbs": [
+      "vscode-extractor"
+    ]
+  },
+  {
+    "objectID": "index.html#uso-básico",
+    "href": "index.html#uso-básico",
+    "title": "vscode-extractor",
+    "section": "Uso Básico",
+    "text": "Uso Básico\n\nExtracción de Extensiones\n\nfrom data_collection_benjamin.extension_metadata_extractor import ExtensionMetadataExtractor\nfrom dotenv import load_dotenv\nimport os\n\n# Cargar las variables de entorno desde el archivo .env\nload_dotenv()\n\nif __name__ == \"__main__\":\n    github_token = os.getenv(\"GITHUB_TOKEN\")  # Obtener el token de GitHub desde las variables de entorno\n    extractor = ExtensionMetadataExtractor(github_token)\n    extractor.run(max_results=10)  # Puedes cambiar a 100 si lo deseas\n\n\n\nExportación a CSV\nLos datos extraídos se guardan en JSON y se convierten automáticamente a CSV:\n\ndata/1_extensions_initial.json\ndata/1_extensions_initial.csv",
+    "crumbs": [
+      "vscode-extractor"
+    ]
+  }
+]
