@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "core.html",
-    "href": "core.html",
-    "title": "core",
-    "section": "",
-    "text": "foo\n\n foo ()",
-    "crumbs": [
-      "core"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "vscode-extractor",
@@ -48,5 +38,12 @@
     "crumbs": [
       "vscode-extractor"
     ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "foo\n\n foo ()"
   }
 ]
