@@ -1,0 +1,11 @@
+publisher_name,ext_name,link_to_extension
+ms-python,python,https://marketplace.visualstudio.com/items?itemName=ms-python.python
+ms-python,vscode-pylance,https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+ms-toolsai,jupyter,https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
+ms-vscode,cpptools,https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+ms-toolsai,jupyter-keymap,https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap
+ms-toolsai,jupyter-renderers,https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers
+ms-python,debugpy,https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+ritwickdey,LiveServer,https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+esbenp,prettier-vscode,https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+VisualStudioExptTeam,vscodeintellicode,https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode

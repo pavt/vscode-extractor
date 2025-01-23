@@ -1,0 +1,52 @@
+[
+    {
+        "publisher_name": "ms-python",
+        "ext_name": "python",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
+    },
+    {
+        "publisher_name": "ms-python",
+        "ext_name": "vscode-pylance",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance"
+    },
+    {
+        "publisher_name": "ms-toolsai",
+        "ext_name": "jupyter",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"
+    },
+    {
+        "publisher_name": "ms-vscode",
+        "ext_name": "cpptools",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools"
+    },
+    {
+        "publisher_name": "ms-toolsai",
+        "ext_name": "jupyter-keymap",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-keymap"
+    },
+    {
+        "publisher_name": "ms-toolsai",
+        "ext_name": "jupyter-renderers",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers"
+    },
+    {
+        "publisher_name": "ms-python",
+        "ext_name": "debugpy",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy"
+    },
+    {
+        "publisher_name": "ritwickdey",
+        "ext_name": "LiveServer",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+    },
+    {
+        "publisher_name": "esbenp",
+        "ext_name": "prettier-vscode",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+    },
+    {
+        "publisher_name": "VisualStudioExptTeam",
+        "ext_name": "vscodeintellicode",
+        "link_to_extension": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode"
+    }
+]
